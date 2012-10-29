@@ -12,3 +12,7 @@ Then /^the name of should be \"(.*?)\"$/ do |name|
   @animal.name.should == name
 end
 
+Then /^the name should be "(.*?)"$/ do |name|
+  @animal.name.should == name
+ end
+
